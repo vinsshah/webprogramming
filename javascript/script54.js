@@ -3,21 +3,14 @@ document.addEventListener("DOMContentLoaded",
   function (event) {
     
     function sayHello (event) {
-      this.textContent = "Said it!";
-      var name =
-       document.getElementById("name").value;
-       var message = "<h2>Hello " + name + "!</h2>";
+      this.textContent = "TEST STARTED!";
 
-      document
-        .getElementById("content")
-        .innerHTML = message;
-
-      if (name === "student") {
+      if (name === "vins") {
         var title = 
           document
             .querySelector("#title")
             .textContent;
-        title += " & Lovin' it!";
+        title += " Vins is a Boy? ";
         document
             .querySelector("h1")
             .textContent = title;
