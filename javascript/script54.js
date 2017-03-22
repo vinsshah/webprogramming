@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",
     function sayHello (event) {
       this.textContent = "TEST STARTED!";
 
-      if (name === "vins") {
+      if (name == "vins") {
         var title = 
           document
             .querySelector("#title")
